@@ -21,22 +21,20 @@ clients = [
 }
 ]
 
-# print(clients['username'],clients['age'])
-# for friend in clients['friends']:
-#     print(friend)
 
 for each_client in clients:
         print(each_client['username'],each_client['age'])
         for friend in each_client['friends']:
             print(friend)
+        print('------------------------')
 
-# if (string_one.endswith("test") or string_two.endswith('test')):
-#     print('found test')
-# else:
-#     print('no test')
+if (string_one.endswith("test") or string_two.endswith('test')):
+    print('found test')
+else:
+    print('no test')
 
-# for each_number in list_numbers:
-#     if(each_number > 10):
-#         print(each_number, ': Large')
-#     elif(each_number <= 10):
-#         print(each_number,':Not Large')
+for each_number in list_numbers:
+    if(each_number > 10):
+        print(each_number, ': Large')
+    elif(each_number <= 10):
+        print(each_number,':Not Large')
